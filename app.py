@@ -3,8 +3,8 @@ import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the dataset
-df = pd.read_csv("Cleaned.csv")
+# Load the clean dataset
+df = pd.read_csv("Cleaned_dataset.csv")
 
 # Title and description
 st.title("Price Analysis Dashboard")
